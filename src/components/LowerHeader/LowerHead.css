@@ -1,0 +1,19 @@
+.lowerHead {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+  margin-top: 20px;
+  font-size: 50px;
+}
+
+.lowerText {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.lowerGoal {
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 100px;
+}
