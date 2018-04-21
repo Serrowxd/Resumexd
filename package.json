@@ -12,5 +12,19 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "* https://www.devonstank.com/\r * http://gatsby-starter-ceevee.surge.sh/",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Serrowxd/Resumexd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Serrowxd/Resumexd/issues"
+  },
+  "homepage": "https://github.com/Serrowxd/Resumexd#readme"
 }
