@@ -5,6 +5,7 @@ import './App.css';
 // Imports
 import NavBar from './components/NavBar/NavBar';
 import Filler from './components/Filler';
+import UpperHeader from './components/UpperHeader/UpperHeader';
 import LowerHead from './components/LowerHeader/LowerHeader';
 
 class App extends Component {
@@ -13,15 +14,18 @@ class App extends Component {
       <div>
         <div className="containerDiv">
           <NavBar />
-        </div>
-        <div className="lowerHeadDiv">
-          <LowerHead />
-        </div>
-        <div>
-          <Filler />
-          <Filler />
-          <Filler />
-          <Filler />
+          <div>
+            <UpperHeader />
+          </div>
+          <div className="lowerHeadDiv">
+            <LowerHead />
+          </div>
+          <div>
+            <Filler />
+            <Filler />
+            <Filler />
+            <Filler />
+          </div>
         </div>
       </div>
     );
