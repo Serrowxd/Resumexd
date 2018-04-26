@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Transition, animated } from 'react-spring';
+import { Button } from 'reactstrap';
 
 import LowerHeader from './components/LowerHeader/LowerHeader';
 import UpperHeader from './components/UpperHeader/UpperHeader';

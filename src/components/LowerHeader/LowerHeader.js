@@ -10,7 +10,7 @@ class LowerHeader extends Component {
         <h1 className="lowerHead">Kevin Jolley</h1>
         <h2 className="lowerText">Developer / Programmer</h2>
         <h4 className="lowerGoal"> Avid Writer, JavaScript Fanatic </h4>
-        <Button> Henlo (OvO") </Button>
+        <Button className="MainButton">Henlo (OvO")</Button>
       </div>
     );
   }
