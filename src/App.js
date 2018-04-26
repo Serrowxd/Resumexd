@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Transition, animated } from 'react-spring';
 
 import LowerHeader from './components/LowerHeader/LowerHeader';
+import UpperHeader from './components/UpperHeader/UpperHeader';
 
 const defaultStyles = {
   cursor: 'pointer',
@@ -22,8 +23,10 @@ const Home = styles => (
   </animated.div>
 );
 
-const B = styles => (
-  <animated.div style={{ ...defaultStyles, ...styles }}>B</animated.div>
+const About = styles => (
+  <animated.div style={{ ...defaultStyles, ...styles }}>
+    <UpperHeader />
+  </animated.div>
 );
 
 class App extends Component {
@@ -39,7 +42,7 @@ class App extends Component {
           leave={{ opacity: 0, pointerEvents: 'none' }}
           config={{ tension: 5, friction: 10 }}
         >
-          {this.state.toggled ? Home : B}
+          {this.state.toggled ? Home : About}
         </Transition>
       </div>
     );
