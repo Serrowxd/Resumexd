@@ -5,6 +5,8 @@
 * https://www.devonstank.com/
 * http://gatsby-starter-ceevee.surge.sh/
 
+* https://codesandbox.io/embed/yj52v5689
+
 ## Notes
 
 * Redoing the landing with React-Spring - considering transition pages? Like 1 page, but then a transition for each of the components. The Nav might not need to exist, could just remove it and add a "Home" button that allows the user to go back. Or just make the outer div a "Home" link.
