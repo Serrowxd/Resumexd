@@ -1,23 +1,17 @@
 import React, { Component } from 'react';
 
-import './LowerHead.css';
+import './LowerHeader.css';
 
-class LowerHead extends Component {
+class LowerHeader extends Component {
   render() {
     return (
-      <div>
-        <h1 className="lowerHead">My Goal</h1>
-        <h2 className="lowerText">
-          Full-Stack JavaScript Developement - React/Node.js
-        </h2>
-        <h4 className="lowerGoal">
-          {' '}
-          I started my coding journey in December of 2017; this page is
-          dedicated to my progress as a developer.{' '}
-        </h4>
+      <div className="lowerHeaderDiv">
+        <h1 className="lowerHead">Kevin Jolley</h1>
+        <h2 className="lowerText">Developer / Programmer</h2>
+        <h4 className="lowerGoal"> Avid Writer, JavaScript Fnatic </h4>
       </div>
     );
   }
 }
 
-export default LowerHead;
+export default LowerHeader;

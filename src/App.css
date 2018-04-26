@@ -1,12 +1,6 @@
 .containerDiv {
   display: block;
   margin: 0 auto;
-  max-width: 1920px;
-  background-color: whitesmoke;
-}
-
-.bodyDiv {
-  display: block;
-  margin-left: 20px;
-  margin-right: 20px;
+  max-width: 100%;
+  background-color: #07010f;
 }

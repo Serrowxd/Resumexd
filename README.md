@@ -24,3 +24,8 @@
 `reactstrap`
 
 `react-spring`
+
+## Colors:
+
+**Background:** `#07010f`
+**Text:** `#f5f5f5`
