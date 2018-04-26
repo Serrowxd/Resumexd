@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Center from 'react-center';
 
 import './App.css';
 

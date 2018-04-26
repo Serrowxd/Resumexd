@@ -25,6 +25,8 @@
 
 `react-spring`
 
+`react-center`
+
 ## Colors:
 
 **Background:** `#07010f`
