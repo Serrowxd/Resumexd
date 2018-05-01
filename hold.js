@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import { Transition, animated } from 'react-spring';
 import { Button } from 'reactstrap';
 
-import Home from './components/Home/Home';
+import About from './components/About/About';
 import UpperHeader from './components/UpperHeader/UpperHeader';
 
 const defaultStyles = {
+  cursor: 'pointer',
   position: 'absolute',
   width: '100%',
   height: '100%',
@@ -17,9 +18,9 @@ const defaultStyles = {
   fontSize: '16em',
 };
 
-const Homexd = styles => (
+const Home = styles => (
   <animated.div style={{ ...defaultStyles, ...styles }}>
-    <Home />
+    <About />
   </animated.div>
 );
 
@@ -42,7 +43,7 @@ class App extends Component {
           leave={{ opacity: 0, pointerEvents: 'none' }}
           config={{ tension: 5, friction: 10 }}
         >
-          {this.state.toggled ? Homexd : AboutButton}
+          {this.state.toggled ? Home : AboutButton}
         </Transition>
       </div>
     );
