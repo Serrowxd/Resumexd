@@ -41,3 +41,5 @@
 
 **Background:** `#07010f`
 **Text:** `#f5f5f5`
+
+# Taking a Break from this project, might come back to it, otherwise redoing the resume page again.

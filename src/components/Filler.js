@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 const Filler = props => {
   return (
-    <div>
+    <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo
       dictum aliquet. Nullam at vestibulum nunc, at convallis ipsum. Praesent ac
       sodales leo. Curabitur bibendum tortor ut massa laoreet, et vestibulum
@@ -53,7 +53,7 @@ const Filler = props => {
       non est sed, consequat suscipit nunc. Donec ornare pharetra mattis. Fusce
       risus massa, imperdiet sit amet elit in, bibendum aliquet dui. Nulla
       facilisi.
-    </div>
+    </p>
   );
 };
 

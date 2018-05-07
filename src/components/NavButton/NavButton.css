@@ -1,4 +1,16 @@
-.MainButton {
+.navButton {
   min-width: 20%;
   color: whitesmoke;
+}
+
+.buttonNav {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  height: 60px;
+  background-color: #07010f;
+}
+
+.link {
+  height: 10px;
 }

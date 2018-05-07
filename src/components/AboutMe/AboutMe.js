@@ -19,7 +19,7 @@ const AboutMeStyles = {
 const StyledText = {
   position: 'absolute',
   width: '100%',
-  height: '100%',
+  height: '90%',
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
@@ -44,18 +44,18 @@ class AboutMe extends Component {
   render() {
     return (
       <div>
+        <NavButton />
         <div style={{ ...AboutMeStyles }}>
           <h1>Stuff about me goes here.</h1>
         </div>
         <div style={{ ...StyledText }}>
           <Filler />
         </div>
-        <div className="navButton" style={{ ...StyledButton }}>
-          <NavButton />
-        </div>
       </div>
     );
   }
 }
+
+// This whole page is currently broken, need to come back and fix it. Probably has something to do with the "Absolute Positioning".
 
 export default AboutMe;

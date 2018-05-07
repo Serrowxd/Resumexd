@@ -9,11 +9,13 @@ import './NavButton.css';
 class NavButton extends Component {
   render() {
     return (
-      <Link to={'/'}>
-        <Button outline className="MainButton">
-          Take Me Back
-        </Button>
-      </Link>
+      <div className="buttonNav">
+        <Link to={'/'} className="link">
+          <Button outline className="navButton">
+            Take Me Back
+          </Button>
+        </Link>
+      </div>
     );
   }
 }
