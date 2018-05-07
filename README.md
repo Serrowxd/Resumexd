@@ -13,6 +13,10 @@
 
 * create buttons for the landing page, rename it and adjust the transition. **CURRENT**
 
+## Issues
+
+* Links are way taller than expected - might be an issue with Router? They don't sit within the buttons, the extend far above them causing issues with clicking.
+
 # Documentation
 
 ## Dependencies
@@ -30,6 +34,8 @@
 `react-spring`
 
 `react-center`
+
+`react-router-dom`
 
 ## Colors:
 

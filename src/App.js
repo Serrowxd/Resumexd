@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-import { Transition } from 'react-spring';
-import { Button } from 'reactstrap';
 
 import Home from './components/Home/Home';
-import AboutMe from './components/AboutMe/AboutMe';
 
 const defaultStyles = {
   position: 'absolute',
@@ -20,12 +17,6 @@ const defaultStyles = {
 const Homexd = styles => (
   <div style={{ ...defaultStyles, ...styles }}>
     <Home />
-  </div>
-);
-
-const AboutButton = styles => (
-  <div style={{ ...defaultStyles, ...styles }}>
-    <AboutMe />
   </div>
 );
 
