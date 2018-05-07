@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import { Transition, animated } from 'react-spring';
+import { Transition } from 'react-spring';
 import { Button } from 'reactstrap';
 
 import Home from './components/Home/Home';
-import UpperHeader from './components/UpperHeader/UpperHeader';
+import AboutMe from './components/AboutMe/AboutMe';
 
 const defaultStyles = {
   position: 'absolute',
@@ -18,32 +18,22 @@ const defaultStyles = {
 };
 
 const Homexd = styles => (
-  <animated.div style={{ ...defaultStyles, ...styles }}>
+  <div style={{ ...defaultStyles, ...styles }}>
     <Home />
-  </animated.div>
+  </div>
 );
 
 const AboutButton = styles => (
-  <animated.div style={{ ...defaultStyles, ...styles }}>
-    <UpperHeader />
-  </animated.div>
+  <div style={{ ...defaultStyles, ...styles }}>
+    <AboutMe />
+  </div>
 );
 
 class App extends Component {
-  state = { toggled: true };
-  toggle = e => this.setState(state => ({ toggled: !state.toggled }));
   render() {
     return (
-      <div onClick={this.toggle}>
-        <Transition
-          native
-          from={{ opacity: 0 }}
-          enter={{ opacity: 1 }}
-          leave={{ opacity: 0, pointerEvents: 'none' }}
-          config={{ tension: 5, friction: 10 }}
-        >
-          {this.state.toggled ? Homexd : AboutButton}
-        </Transition>
+      <div>
+        <Homexd />
       </div>
     );
   }

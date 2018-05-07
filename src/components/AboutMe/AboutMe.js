@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-// import './UpperHeader.css';
+import './AboutMe.css';
 
-class UpperHeader extends Component {
+class AboutMe extends Component {
   render() {
     return (
-      <div className="upHead">
+      <div className="aboutMe">
         <h1>Stuff about me goes here.</h1>
       </div>
     );
   }
 }
 
-export default UpperHeader;
+export default AboutMe;

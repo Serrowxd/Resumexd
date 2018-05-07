@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Button } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 import './Home.css';
 
@@ -11,12 +12,24 @@ class Home extends Component {
       <div>
         <h1 className="lowerHead">Kevin Jolley</h1>
         <h2 className="lowerText">Developer / Programmer</h2>
-        <h4 className="lowerGoal"> Avid Writer, JavaScript Fanatic </h4>
-        <Button className="MainButton">About Me</Button>
-        <Button className="MainButton">About Me</Button>
-        <Button className="MainButton">About Me</Button>
-        <Button className="MainButton">About Me</Button>
-        {/* <NavButton className="MainButton" /> */}
+        <h4 className="lowerGoal">
+          Freelance Developer and JavaScript Fanatic
+        </h4>
+
+        <Button outline className="MainButton">
+          Projects
+        </Button>
+        <Link to={'/AboutMe'}>
+          <Button outline className="MainButton">
+            About
+          </Button>
+        </Link>
+        <Button outline className="MainButton">
+          Resume
+        </Button>
+        <Button outline className="MainButton">
+          Github
+        </Button>
       </div>
     );
   }
